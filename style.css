@@ -1,0 +1,287 @@
+@charset "utf-8";
+
+@font-face {
+    font-family: bonita;
+    src: url(bonita_4/BONITA.ttf);
+}
+
+@font-face {
+    font-family: apple;
+    src: url(apple_garamond//AppleGaramond-LightItalic.ttf);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    /* overflow-x: auto; */
+}
+
+body {
+    background-color: #F6E5D9;
+}
+
+header {
+    background-color: #c26d2d;
+    padding: 20px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 999;
+}
+
+a {
+    color: #ffffff;
+    margin-left: 20%;
+    font-family: apple;
+    font-size: 17px;
+}
+
+
+.container h1 {
+    font-family: bonita;
+    font-size: 90px;
+    width: 50px;
+    font-weight: 50;
+   margin-left: 30%;
+   margin-top: 5%;
+}
+
+.container {
+    /* margin-left: 50%; */
+    margin-top: 10%;
+    display: flex;
+    /* justify-content: space-between; */
+    /* justify-content: space-around; */
+
+}
+
+.borda {
+    border: solid 1px;
+    width: 32%;
+    margin-left: 64%;
+    color: #c26d2d;
+    margin-bottom: 21%;
+
+}
+
+.logos {
+    margin-left: 65%;
+    width: 60%;
+    height: 90%;
+    margin-top: -20%;
+ 
+}
+
+.img1 {
+    margin-left: 72px;
+    margin-top: 5px;
+    width: 35px;
+}
+
+.png{
+    width: 20%;
+}
+.wats {
+    height: 30%;
+    width: 30%;
+    border-radius: 100px ;
+    /* margin-right: 100px; */
+    /* transform: translate(200%, -80%); */
+    margin-left: 3%;
+    
+}
+
+
+
+#sobre-mim {
+    font-size: 50px;
+    color: #000000;
+    margin-left: 10%;
+    /* margin-top: 18%; */
+    font-family: bonita;
+    font-weight: 50;
+    margin-top: 20%;
+}
+
+p {
+    color: #c26d2d;
+    font-size: 29px;
+    box-shadow: 10px 5px 10px rgb(121, 66, 3);
+    border-radius: 20px;
+    margin-top: 2%;
+
+
+}
+
+.sobre {
+    align-items: center;
+    flex-direction: column;
+    position: absolute;
+    margin-left: 10%;
+    text-align: center;
+    width: 40%;
+}
+
+.bili {
+    /* margin-top: 20px; */
+
+    margin-right: 10px;
+    margin-left: 20px;
+    animation: pulse 1s infinite alternate;
+
+}
+
+.t2 {
+    font-family: bonita;
+    font-size: 70px;
+    font-weight: 50;
+    margin-top: 30%;
+
+}
+
+
+.auto {
+    margin-left: 16%;
+    /* margin-top: 2px; */
+    animation: pulse 1s infinite alternate;
+
+}
+
+.bene {
+    /* margin-top: 1%; */
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    position: absolute;
+    margin-left: 30%;
+    text-align: center;
+    width: 40%;
+    animation: pulse 1s infinite alternate;
+}
+
+.cont {
+    display: flex;
+}
+
+.pjts {
+    margin-top: 40%;
+    margin-left: 43%;
+    font-size: 67px;
+}
+
+
+
+.fe {
+    display: flex;
+    flex-direction: row;
+    margin: auto;
+}
+
+.fe img {
+    flex-direction: column;
+    width: 100%;
+    margin: auto;
+}
+
+.disney {
+    display: flex;
+    flex-direction: column;
+    width: 15%;
+    margin-left: 2%;
+    border-radius: 20px;
+    margin: auto;
+}
+
+.lgd {
+    background-color: none;
+    border-radius: 0;
+    box-shadow: none;
+    color: #000000;
+    flex-direction: column;
+}
+
+
+
+
+label input[type="checkbox"] {
+    display: none;
+}
+
+.collapse {
+    height: 0px;
+    overflow: hidden;
+    transition: height 0.8s;
+}
+
+input:checked+.collapse {
+    height: 200px;
+}
+
+label img {
+    width: 220px;
+    height: 199px;
+}
+
+form {
+    font-family: bonita;
+    width: 600px;
+    margin: 100px;
+    text-align: left;
+    font-size: 26px;
+
+}
+
+form label,
+form input {
+    margin: 10%;
+}
+
+form div {
+    display: flex;
+    flex-direction: column;
+}
+
+.from-dados {
+    display: flex;
+    flex-direction: row;
+}
+
+form h2 {
+    font-size: 50px;
+}
+
+.eu{
+    width: 30%;
+    margin-left: 60%;
+    border-radius: 60px 1px 60px 1px;
+}
+footer{
+    background-color: #c26d2d;
+    height: 30%;
+    position: relative;
+    bottom: 0;
+    color: #000000;
+    padding: 15px;
+    font-family: bonito;
+    font-size: 20px;
+}
+
+form input {
+    border-bottom-color: #c26d2d;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    background-color: #F6E5D9;
+    margin: 10%;
+    color: #000000;
+}
+
+@keyframes pulse {
+    from {
+        scale: 1;
+    }
+
+    to {
+        scale: 1.1;
+    }
+}
